@@ -15,46 +15,80 @@ body{
     background-color: #eaedf2;
 }
  .container{
+   
     background-color: #f3f4f6;
     margin-top: 2em;
     margin-left: 2em;
     margin-right: 2em;
-    border-radius: 10px;  
+    border-radius: 20px;  
+   
     
  }
 
  .list{
     display: flex;
-    gap: 3em;
-    margin-left: 3em;
+    
+    gap: 2em;
+    margin: auto;
+    border-radius: 20px 20px 0 0;
+    justify-content: center;
+    background-color: white;
+    
    
  }
 
  select{
-    margin: 1.5em 0em 1em 0em;
-    padding: 1em;
-    border-radius: 10px;
-    
-    
+    margin: 1em 0em;
+    width: 100px;
+    padding: 20px;
+    border-radius: 15px;
+      
  }
+
+ .month{
+   width: 100px;
+ }
+
+
 
  .table{
     padding: 1em;
+    margin: auto;
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 100%;
+    
+ 
 
  }
  td{
     padding: 1em;
+    
  }
+
+
  
  .td2{
-    padding-bottom: 2em;
+   
+    background-color: white;
+    color: lightgrey;
+    
+    
+ }
+
+ .td-1{
+   color: lightgray;
  }
 
  button{
     
-    background-color: white;
+    background-color: #eaedf2;
     padding: 1.5em;
-    border-radius: 10px;
+    border-radius: 20px;
+    width: 500px;
+    height: 50px;
+    margin-top: 1em;
+    
     
    
  }
@@ -62,9 +96,16 @@ body{
     display: flex;
     justify-content: space-around;
     background-color: #f3f4f6;
-    border-radius: 10px;
+    border-radius: 20px;
     margin: -1.5em 2em 1em 2em;
     padding: 2em;
+    gap: 2em;
 
+ }
+
+ .button-blue{
+   background-color: rgba(5, 102, 247, 0.911);
+   color: white;
+   text-align:center;
 
  }
