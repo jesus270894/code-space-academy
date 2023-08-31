@@ -1,6 +1,4 @@
-*{
- 
-    
+*{ 
     border: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,104 +6,139 @@
 :root{
     font-size: 0.785rem;
     font-family: 'Lato', sans-serif;
+    font-weight: bold;
     --grey: #f3f4f6;
 
 }
+
 body{
-    background-color: #eaedf2;
+    background-color: #eaedf2;    
 }
  .container{
-   
     background-color: #f3f4f6;
     margin-top: 2em;
     margin-left: 2em;
     margin-right: 2em;
     border-radius: 20px;  
-   
-    
  }
+ 
+ /*formulario*/
 
  .list{
     display: flex;
-    
-    gap: 2em;
     margin: auto;
     border-radius: 20px 20px 0 0;
-    justify-content: center;
+    justify-content: space-between;
     background-color: white;
-    
-   
+    gap: 1em;    
  }
 
  select{
-    margin: 1em 0em;
+    margin:auto;
+    margin-top: 1em;
     width: 100px;
-    padding: 20px;
-    border-radius: 15px;
-      
+    padding: 10px;
+    border-radius: 12px;
+    font-weight: bold;      
  }
 
  .month{
-   width: 100px;
+   margin-left: 1em;
+   width: 500px;
+   height: 40px;
+   
  }
 
+ .year{
+   margin-right: 1em;
+   width: 500px;
+   height: 40px;    
+ }
 
+/*table*/
 
- .table{
-    padding: 1em;
-    margin: auto;
+ 
+.table{
+    
     table-layout: fixed;
     border-collapse: collapse;
     width: 100%;
+    text-align: center;
     
- 
-
  }
+
  td{
-    padding: 1em;
-    
+    padding: 1em;   
  }
 
-
- 
  .td2{
-   
     background-color: white;
-    color: lightgrey;
-    
-    
+    color: lightgrey;    
  }
 
- .td-1{
-   color: lightgray;
+ /*franja-roja*/
+ .red-line-1{
+   background-color: rgb(247, 217, 217);
+   border-radius: 10px 0px 0px 10px;
+   color: red;
  }
+
+ .red-line-2{
+   background-color: rgb(247, 217, 217);
+   color: red;
+   border-radius: 0px 10px 10px 0px ;
+ }
+
+ .red-line-4, .red-line-5{
+   
+   background-color: rgb(247, 217, 217);
+   color: red;
+ }
+
+ .red-line-3{
+   background-color: rgb(247, 217, 217);
+   border-radius: 10px 0 0px 10px;
+   color: red;
+ }
+
+ .red-line-6{
+   background-color: rgb(247, 217, 217);
+   border-radius: 0px 10px 10px 0px;
+   color: red;
+ }
+
+/*buttons*/
 
  button{
     
     background-color: #eaedf2;
-    padding: 1.5em;
-    border-radius: 20px;
-    width: 500px;
-    height: 50px;
+    border-radius: 17px;
     margin-top: 1em;
-    
-    
-   
+    font-weight: bold;  
+    text-align:justify center;
+
  }
  .buttons{
     display: flex;
     justify-content: space-around;
     background-color: #f3f4f6;
-    border-radius: 20px;
+    border-radius: 10px;
     margin: -1.5em 2em 1em 2em;
     padding: 2em;
-    gap: 2em;
-
+    gap: 1em;
  }
 
  .button-blue{
    background-color: rgba(5, 102, 247, 0.911);
    color: white;
-   text-align:center;
-
+   width: 700PX;
+   height: 40px;
+   
  }
+
+ .button-grey{
+   width: 700px;
+   height: 40px;
+  
+ }
+/*end*/
