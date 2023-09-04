@@ -29,22 +29,12 @@ h1{
     margin-bottom: 0.5em;
 }
 
-input[type="text"], input[type="Email"]{
+input{
     padding: 0.4em;
     border-bottom: 1px solid black;
     background-color: aliceblue;
     width: 100%;
-}
-
-input[type="Password"]{
-    padding: 0.4em;
-    border-bottom: 1px solid black;
-    background-color: aliceblue;
-    width: 100%;
-
-    
-
-}
+} 
 
 img{
     width: 18px;
