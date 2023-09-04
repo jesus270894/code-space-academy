@@ -1,0 +1,57 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+:root {
+  font-size: 0.785rem;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background-color: grey;
+}
+div {
+    width: 100%;
+    background: url(/clases-css/ejercicio-calendar-2/img/fantasy-artwork-harry-potter-hogwarts-iphone-dzoyzcisijofdo2x.jpg)
+    center no-repeat;
+    height: 100vh;
+    filter: blur(10px);
+
+}
+span{
+    background: url(/clases-css/ejercicio-calendar-2/img/fantasy-artwork-harry-potter-hogwarts-iphone-dzoyzcisijofdo2x.jpg) center no-repeat;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    width: 50%;
+    max-width: 300px;
+    border-radius: 1rem;
+    color: white;
+}
+
+table{
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+    padding: 2em 1em;
+    margin-top: 100%;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    font-size: 1rem;
+}
+td{
+    padding: 0.5em 0 0.6em;
+    color: black;
+}
+
+tr:first-of-type td{
+    font-weight: bold;
+}
+
+tr td:nth-child(7){
+    color: #ff685d;
+    font-weight: bold;
+}
