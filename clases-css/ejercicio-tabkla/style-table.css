@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+td{
+    padding: 0.6em;
+}
+
+table{
+    width: 80%;
+    margin: 5% auto;
+    border-spacing: 0;
+}
+
+tr:first-of-type td{
+    background-color: rgb(39, 122, 176);
+    color: white;
+    text-align: center;
+}
+
+.odd{
+    background-color: rgb(226, 226, 226);
+}
+
+.even{
+    background-color: darkgray;
+}
