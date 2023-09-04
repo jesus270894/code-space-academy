@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+  }
+  
+  :root {
+    font-size: 0.785em;}
+
+body{
+    background-color: lightcoral;
+    
+}
+
+div{
+    background-color: aliceblue;
+    display: block;
+    width: 50%;
+    margin: 5em auto;
+    padding: 3em;
+    border-radius: 0.5rem;
+}
+
+h1{
+    margin-bottom: .5em;
+}
+
+.p1{
+    margin-bottom: 0.5em;
+}
+
+input[type="text"], input[type="Email"]{
+    padding: 0.4em;
+    border-bottom: 1px solid black;
+    background-color: aliceblue;
+    width: 100%;
+}
+
+input[type="Password"]{
+    padding: 0.4em;
+    border-bottom: 1px solid black;
+    background-color: aliceblue;
+    width: 100%;
+
+    
+
+}
+
+img{
+    width: 18px;
+    
+}
+button{
+    padding: 1em;
+    width: 100%;
+    border-radius: .5rem;
+    background-color: lightcoral;
+    color: white;
+    margin-bottom: 1em;
+}
+.p2{
+    font-size: large;
+    text-align: center;
+    }
