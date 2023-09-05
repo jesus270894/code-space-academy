@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 0.785rem;
+
+}
+
+table{
+    border: 1px solid black;
+    width: 50%;
+    margin: 3em auto;
+    text-align: center;
+    border-collapse: collapse;
+    font-weight: bold;
+}
+th, td{
+    border: 1px solid black;
+    padding: 0.5em;
+}
+.orange{
+    background-color: darkorange;
+    color: white;
+}
+.green{
+    background-color: mediumseagreen;
+    color: white;
+}
+.cols{
+    background-color:black;
+    color: white;
+    text-align:justify;   
+}
+.col1{
+    padding-left: 2em;
+}
+.blue{
+    background-color: rgb(65, 173, 163);
+    color: white;
+}
+ .purple{
+    background-color: purple;
+    color: white;
+ }
+.pink{
+    background-color: palevioletred;
+    color: white;
+}
